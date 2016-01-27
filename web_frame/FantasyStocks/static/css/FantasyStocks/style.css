@@ -187,3 +187,11 @@ header {
 	margin: auto;
 	height: 260px;
 }
+
+
+.forumpanel {
+	position: relative;
+	margin: auto;
+	width: 98%;
+	margin-top: 10px;
+}

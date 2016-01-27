@@ -1,20 +1,19 @@
 <html>
 <head>
-<title> Title </title>
+<title> Forum </title>
 {% load staticfiles %}
 <!-- CSS -->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/FantasyStocks/jquery-ui.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/FantasyStocks/bootstrap.min.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/FantasyStocks/style.css' %}">
 	<link rel="shortcut icon" href="{% static 'img/FantasyStocks/flag.ico' %}">
 <!-- JS -->
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="https://code.highcharts.com/stock/highstock.js"></script>
-	<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-	<script src="{% static 'js/FantasyStocks/ryan.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/jquery-1.10.2.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/jquery-ui.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/highstock.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/exporting.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/home.js' %}"></script>
 </head>
 <body>
 	<div class="shell">
@@ -32,7 +31,47 @@
 			</div>
 		</header>
 		<div class="top">
-			login
+			#Squad Forum
+		</div>
+		<div class="forumpanel">
+			<div class="panel panel-default">
+			  <div class="panel-heading">RDuncR - 01/12/16 09:26:00</div>
+			  <div class="panel-body">
+			    Time to sell our AAPL? What you guys think?
+			  </div>
+			</div>
+		</div>
+		<div class="forumpanel">
+			<div class="panel panel-default">
+			  <div class="panel-heading">RDuncR - 01/04/16 09:08:30</div>
+			  <div class="panel-body">
+			    You're welcome for recommending Netflix 2 years ago. Wire me that finders fee.
+			  </div>
+			</div>
+		</div>
+		<div class="forumpanel">
+			<div class="panel panel-default">
+			  <div class="panel-heading">BlueBoy27 - 11/04/16 12:42:00</div>
+			  <div class="panel-body">
+			    Not contributing to fund in November/December, need the cash for the holidays.
+			  </div>
+			</div>
+		</div>
+		<div class="forumpanel">
+			<div class="panel panel-default">
+			  <div class="panel-heading">UnicornWizurd - 09/27/15 01:03:30</div>
+			  <div class="panel-body">
+			    Alright. So if we double down on Amazon and buy Alphabet, we should definitely sell our Boeing and Toyota. Might as well go all in. I'm tired of our energy/oil holdings, we're getting crushed and don't see it making a rebound.
+			  </div>
+			</div>
+		</div>
+		<div class="forumpanel">
+			<div class="panel panel-default">
+			  <div class="panel-heading">Wahoof9 - 09/26/15 18:53:00</div>
+			  <div class="panel-body">
+			    <a href="http://investorplace.com/2015/12/10-best-stocks-to-buy-for-2016/">http://investorplace.com/2015/12/10-best-stocks-to-buy-for-2016/</a>
+			  </div>
+			</div>
 		</div>
 	</div>
 </body>
