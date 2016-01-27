@@ -1,21 +1,18 @@
 <html>
 <head>
-<title> Title </title>
+<title> Home </title>
 {% load staticfiles %}
 <!-- CSS -->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/FantasyStocks/jquery-ui.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/FantasyStocks/bootstrap.min.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/FantasyStocks/style.css' %}">
-	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="{% static 'img/FantasyStocks/flag.ico' %}">
 <!-- JS -->
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="http://d3js.org/d3.v3.min.js"></script>
-	<script src="https://code.highcharts.com/stock/highstock.js"></script>
-	<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+	<script src="{% static 'js/FantasyStocks/jquery-1.10.2.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/jquery-ui.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/highstock.js' %}"></script>
+	<script src="{% static 'js/FantasyStocks/exporting.js' %}"></script>
 	<script src="{% static 'js/FantasyStocks/ryan.js' %}"></script>
 </head>
 <body>
